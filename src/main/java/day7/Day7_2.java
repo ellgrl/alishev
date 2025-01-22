@@ -18,6 +18,5 @@ public class Day7_2 {
             player3.run();
         }
         Player.info();
-
     }
 }

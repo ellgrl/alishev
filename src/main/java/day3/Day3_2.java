@@ -1,21 +1,23 @@
+package day3;
+
 import java.util.Scanner;
 
-public class Day3_3 {
+public class Day3_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int counter = 0;
 
-        while (counter < 5) {
+
+        while (true) {
             double a = sc.nextDouble();
             double b = sc.nextDouble();
-
-            counter++;
             if (b == 0) {
-                System.out.println("Деление на 0");
-                continue;
+                break;
             }
-            System.out.println(a / b);
+            else {
+                double c = a / b;
+                System.out.println(c);
             }
         }
     }
 
+}

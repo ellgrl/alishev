@@ -1,3 +1,5 @@
+package day1;
+
 public class day1_6 {
     public static void main(String[] args) {
         int k = 7;
